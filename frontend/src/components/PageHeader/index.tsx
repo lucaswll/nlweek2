@@ -8,7 +8,9 @@ import './styles.css'
 
 interface PageHeaderProps {//maneira de representar a(s) tipagem(ns) da propriedade
     title: string;
+    description?: string;//propriedade opcional = '?'
 }
+
 //tenho um componente chamado PageHeader, ele é um FC (function component) e possui as propriedades dentro de PageHeaderProps
 const PageHeader:React.FC<PageHeaderProps> = (props) => { //pro componente receber uma propriedade, faço a function como arrow function e trato ela como constante
     return(
@@ -22,6 +24,7 @@ const PageHeader:React.FC<PageHeaderProps> = (props) => { //pro componente receb
 
             <div className="header-content">
                 <strong>{props.title}</strong>
+                { props.description && <p>{props.description}</p>}
 
                 {props.children}
             </div>            
