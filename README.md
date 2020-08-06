@@ -24,7 +24,7 @@ Link para acessar a [Demo](https://lkslima-nlweek2.vercel.app/)
 Este projeto foi baseado na **Next Level Week #2**, realizado pela [Rockseat](https://rocketseat.com.br/), utilizando das seguintes tecnologias:
 
 -  [ReactJS](https://reactjs.org/)
--  [Node.js](nodejs)
+-  [Node.js](https://nodejs.org/en/)
 -  [TypeScript](https://www.typescriptlang.org/)
 
 ## :bookmark_tabs: Dependências
