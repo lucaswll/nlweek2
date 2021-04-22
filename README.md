@@ -66,12 +66,12 @@ $ git clone https://github.com/lucaswll/nlweek2.git
 # Para cada uma das pastas (server, web and mobile), será necessário navegar até elas e utilizar dos seguintes comandos através de um terminal:
 
 # Para o servidor (backend)
-$ cd server
+$ cd backend
 $ npm install
 $ npm run knex:migrate
 $ npm start
 
 # Para o projeto web (frontend)
-$ cd web
+$ cd frontend
 $ npm install
 $ npm start
